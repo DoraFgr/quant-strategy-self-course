@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data files (uncomment if deciding not to commit data)
+# data/*.csv
+# data/*.parquet
+# data/*.h5
+# data/*.hdf5
+# data/*.pickle
+# data/*.pkl
+
+# Large result files (keep small plots, exclude large CSVs)
+results/*.csv
+results/*.parquet
+results/*.h5
+results/*.hdf5
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments and secrets
+.env
+.env.local
+secrets.json
+api_keys.json
+config/local.yml
+
+# QuantLib builds (if compiling from source)
+QuantLib/
+QuantLib-*/
+
+# Backup files
+*.bak
+*.backup
