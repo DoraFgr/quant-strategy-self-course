@@ -1,0 +1,60 @@
+end_date: '2025-09-30 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 3.1856
+    mean: 2.9179180185185185
+    median: 2.8874
+    min: 2.6986
+    name: close
+    nulls: 0
+    std: 0.10974618060705642
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 3.1858
+    mean: 2.919044361111111
+    median: 2.8888
+    min: 2.7022
+    name: high
+    nulls: 0
+    std: 0.10971187539350695
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 3.1817
+    mean: 2.9167857569444444
+    median: 2.8862
+    min: 2.6975
+    name: low
+    nulls: 0
+    std: 0.10977990738568287
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 3.1857
+    mean: 2.9179179560185187
+    median: 2.8874
+    min: 2.6986
+    name: open
+    nulls: 0
+    std: 0.10974735697313986
+  volume:
+    description: Traded volume during the interval
+    max: 8761500.9
+    mean: 76475.76415740741
+    median: 43081.25
+    min: 609.2
+    name: volume
+    nulls: 0
+    std: 147438.13808265308
+insights:
+  avg_volume: 76475.76415740741
+  price_range:
+    max_close: 3.1856
+    min_close: 2.6986
+last_close: 2.8468
+rows: 43200
+sha256: 2855defff53cb26518e5caac28fb91f4de85ef32c79f56b6fd6a1b000e78d550
+start_date: '2025-09-01 00:00:00+00:00'
+symbol: XRP/USDT
+timeframe: 1m
+total_return_pct: 2.5615160139784487
+updated: '2025-11-09T23:16:17.635733'

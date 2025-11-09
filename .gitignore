@@ -106,3 +106,6 @@ QuantLib-*/
 # Backup files
 *.bak
 *.backup
+
+# Data bundles downloaded from Binance
+/bundles/*

@@ -1,0 +1,60 @@
+end_date: '2024-11-30 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 1.1482
+    mean: 0.6830732986111111
+    median: 0.69895
+    min: 0.3207
+    name: close
+    nulls: 0
+    std: 0.25973046511152204
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 1.1542
+    mean: 0.6840837708333334
+    median: 0.7007
+    min: 0.321
+    name: high
+    nulls: 0
+    std: 0.26020764475178526
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 1.1462
+    mean: 0.6820225324074074
+    median: 0.6969000000000001
+    min: 0.3201
+    name: low
+    nulls: 0
+    std: 0.259232331820927
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 1.1482
+    mean: 0.6830559583333333
+    median: 0.69895
+    min: 0.3206
+    name: open
+    nulls: 0
+    std: 0.25972728293113956
+  volume:
+    description: Traded volume during the interval
+    max: 13880538.6
+    mean: 331846.1757962962
+    median: 187291.8
+    min: 72.2
+    name: volume
+    nulls: 0
+    std: 491058.4820436087
+insights:
+  avg_volume: 331846.1757962962
+  price_range:
+    max_close: 1.1482
+    min_close: 0.3207
+last_close: 1.079
+rows: 43200
+sha256: da3ab899d697fedbe17e98f14ac2dd153c2455e8a6c58d8163df04fdb69d19da
+start_date: '2024-11-01 00:00:00+00:00'
+symbol: ADA/USDT
+timeframe: 1m
+total_return_pct: 215.68168519602105
+updated: '2025-11-09T23:20:44.328930'

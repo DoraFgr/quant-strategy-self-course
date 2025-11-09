@@ -1,0 +1,60 @@
+end_date: '2023-12-31 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 2445.78
+    mean: 2255.620789426523
+    median: 2252.0550000000003
+    min: 2045.24
+    name: close
+    nulls: 0
+    std: 71.48962195608858
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 2445.8
+    mean: 2256.422900985663
+    median: 2252.865
+    min: 2046.22
+    name: high
+    nulls: 0
+    std: 71.5579040438295
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 2442.24
+    mean: 2254.779592741935
+    median: 2251.34
+    min: 2045.04
+    name: low
+    nulls: 0
+    std: 71.4297178136634
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 2445.78
+    mean: 2255.6155759408603
+    median: 2252.05
+    min: 2045.25
+    name: open
+    nulls: 0
+    std: 71.4959752509844
+  volume:
+    description: Traded volume during the interval
+    max: 12346.1942
+    mean: 265.9015966890681
+    median: 167.3125
+    min: 6.1146
+    name: volume
+    nulls: 0
+    std: 382.43497541666665
+insights:
+  avg_volume: 265.9015966890681
+  price_range:
+    max_close: 2445.78
+    min_close: 2045.24
+last_close: 2281.87
+rows: 44640
+sha256: aef2bdf1ca94f67436e0f763bc981e9bc2eb35f1d07c7f8d366d71320e50f13c
+start_date: '2023-12-01 00:00:00+00:00'
+symbol: ETH/USDT
+timeframe: 1m
+total_return_pct: 11.148617382451942
+updated: '2025-11-09T23:11:42.175672'

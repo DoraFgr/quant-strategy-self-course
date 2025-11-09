@@ -115,3 +115,45 @@ This repo now contains small, well-scoped utilities to fetch, validate, summariz
 
 If you'd like, I can (1) add quick examples showing how to change the universe of symbols, (2) add a `--dry-run` flag to the updater, or (3) add CI jobs that run only the lint/tests (no network). Tell me which and I'll add it.
 
+## Backfill 1m using Binance public bundles (how-to)
+
+If you need full historical 1-minute OHLCV backfills, Binance provides pre-built monthly/daily "bundle" ZIP files with 1m klines. The repo includes small utilities to download those bundles and import them into the repo partition layout (year/month CSVs + per-month manifests).
+
+1) Download bundles (dry-run first)
+
+Run a dry-run to see which bundle files would be downloaded. Replace `ETHUSDT` with the symbol you want.
+
+```bash
+python scripts/download_binance_bundles.py --period monthly --symbols ETHUSDT --start-date 2022-11-01 --end-date 2025-10-31 --timeframe 1m --dry-run
+```
+
+2) Download monthly historical bundles
+
+When ready, run the real download (we include a small pause by default to be polite to the host):
+
+```bash
+python scripts/download_binance_bundles.py --period monthly --symbols ETHUSDT --start-date 2022-11-01 --end-date 2025-10-31 --timeframe 1m --pause 0.7
+```
+
+3) Download recent daily bundles (current partial month)
+
+For the current (partial) month it's safer to use daily bundles:
+
+```bash
+python scripts/download_binance_bundles.py --period daily --symbols ETHUSDT --start-date 2025-11-01 --end-date 2025-11-08 --timeframe 1m --pause 0.7
+```
+
+4) Import bundles into repo partitions
+
+Once the ZIPs are downloaded under `bundles/`, import them to the repo partition layout and create per-month manifests:
+
+```bash
+python scripts/import_binance_bundles.py --bundle-dir bundles --timeframe 1m --symbols ETHUSDT --force
+```
+
+Notes
+- Use `--dry-run` on both downloader and importer to preview actions before making changes.
+- The importer detects timestamps in micro/milli/seconds and coerces invalid rows; manifests are written to `data/crypto/USDT/<BASE>/1m/<YYYY>/<MM>/manifest_1m_<YYYY-MM>.yaml`.
+- If you want Parquet output instead of CSV, say so and I can add it (recommended for large datasets).
+
+

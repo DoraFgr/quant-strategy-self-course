@@ -1,0 +1,57 @@
+symbol: BTC/USDT
+timeframe: 1m
+rows: 206
+start_date: '2025-11-09 03:34:00'
+end_date: '2025-11-09 22:33:00'
+total_return_pct: 2.7854308751550594
+fields:
+  open:
+    name: open
+    description: 'Open price for the interval'
+    min: 101489.53
+    max: 104782.86
+    mean: 103397.21150485436
+    median: 104406.16
+    std: 1366.1580006698746
+    nulls: 0
+  high:
+    name: high
+    description: 'Highest trade price during the interval'
+    min: 101531.16
+    max: 104845.16
+    mean: 103423.49747572815
+    median: 104440.065
+    std: 1368.0259535451473
+    nulls: 0
+  low:
+    name: low
+    description: 'Lowest trade price during the interval'
+    min: 101477.15
+    max: 104771.06
+    mean: 103372.58480582523
+    median: 104382.72
+    std: 1362.3331297141647
+    nulls: 0
+  close:
+    name: close
+    description: 'Close price for the interval'
+    min: 101489.54
+    max: 104782.86
+    mean: 103396.73199029126
+    median: 104397.575
+    std: 1363.8922133023389
+    nulls: 0
+  volume:
+    name: volume
+    description: 'Traded volume during the interval'
+    min: 0.75522
+    max: 213.53609
+    mean: 10.060671116504853
+    median: 5.24226
+    std: 20.2646531104283
+    nulls: 0
+insights:
+  price_range:
+    min_close: 101489.54
+    max_close: 104782.86
+  avg_volume: 10.060671116504853
