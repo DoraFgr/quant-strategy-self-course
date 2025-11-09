@@ -1,0 +1,57 @@
+symbol: XRP/USDT
+timeframe: 1d
+rows: 729
+start_date: '2023-11-12 00:00:00'
+end_date: '2025-11-09 00:00:00'
+total_return_pct: 253.07727203992138
+fields:
+  open:
+    name: open
+    description: 'Open price for the interval'
+    min: 0.4196
+    max: 3.5504
+    mean: 1.5120053497942387
+    median: 0.688
+    std: 1.0156468294689602
+    nulls: 0
+  high:
+    name: high
+    description: 'Highest trade price during the interval'
+    min: 0.4335
+    max: 3.6607
+    mean: 1.5618739368998629
+    median: 0.7398
+    std: 1.0500899850143672
+    nulls: 0
+  low:
+    name: low
+    description: 'Lowest trade price during the interval'
+    min: 0.3823
+    max: 3.4218
+    mean: 1.4595408779149521
+    median: 0.6468
+    std: 0.979589402856798
+    nulls: 0
+  close:
+    name: close
+    description: 'Close price for the interval'
+    min: 0.4195
+    max: 3.5504
+    mean: 1.5143
+    median: 0.6891
+    std: 1.015614782700931
+    nulls: 0
+  volume:
+    name: volume
+    description: 'Traded volume during the interval'
+    min: 31389546.6
+    max: 2543716698.49
+    mean: 332997236.7835254
+    median: 244982717.0
+    std: 301019295.9433896
+    nulls: 0
+insights:
+  price_range:
+    min_close: 0.4195
+    max_close: 3.5504
+  avg_volume: 332997236.7835254
