@@ -1,0 +1,57 @@
+symbol: BNB/USDT
+timeframe: 1d
+rows: 729
+start_date: '2023-11-12 00:00:00'
+end_date: '2025-11-09 00:00:00'
+total_return_pct: 302.18270008084073
+fields:
+  open:
+    name: open
+    description: 'Open price for the interval'
+    min: 225.5
+    max: 1307.4
+    mean: 612.716598079561
+    median: 600.3
+    std: 199.43554974169896
+    nulls: 0
+  high:
+    name: high
+    description: 'Highest trade price during the interval'
+    min: 229.2
+    max: 1375.11
+    mean: 626.4963923182441
+    median: 609.0
+    std: 205.61724798979125
+    nulls: 0
+  low:
+    name: low
+    description: 'Lowest trade price during the interval'
+    min: 222.5
+    max: 1264.32
+    mean: 598.4776268861455
+    median: 590.0
+    std: 193.1201895029978
+    nulls: 0
+  close:
+    name: close
+    description: 'Close price for the interval'
+    min: 225.5
+    max: 1307.4
+    mean: 613.7284910836763
+    median: 600.69
+    std: 199.49160360660102
+    nulls: 0
+  volume:
+    name: volume
+    description: 'Traded volume during the interval'
+    min: 51648.289
+    max: 4050392.778
+    mean: 477734.1127932785
+    median: 324305.897
+    std: 449243.34282047255
+    nulls: 0
+insights:
+  price_range:
+    min_close: 225.5
+    max_close: 1307.4
+  avg_volume: 477734.1127932785

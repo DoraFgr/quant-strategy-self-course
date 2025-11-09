@@ -1,0 +1,60 @@
+end_date: '2023-03-31 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 29159.6
+    mean: 25001.75830991921
+    median: 24894.0
+    min: 19595.12
+    name: close
+    nulls: 0
+    std: 2818.8405040256166
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 29184.68
+    mean: 25014.703033662478
+    median: 24912.980000000003
+    min: 19618.87
+    name: high
+    nulls: 0
+    std: 2820.3949329142465
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 29116.74
+    mean: 24988.79379263914
+    median: 24873.42
+    min: 19549.09
+    name: low
+    nulls: 0
+    std: 2817.2315229497744
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 29159.6
+    mean: 25001.643179084378
+    median: 24894.004999999997
+    min: 19597.07
+    name: open
+    nulls: 0
+    std: 2818.8014203771854
+  volume:
+    description: Traded volume during the interval
+    max: 5877.77545
+    mean: 213.5590071467684
+    median: 139.308895
+    min: 0.0
+    name: volume
+    nulls: 0
+    std: 257.45023814688255
+insights:
+  avg_volume: 213.5590071467684
+  price_range:
+    max_close: 29159.6
+    min_close: 19595.12
+last_close: 28465.36
+rows: 44560
+sha256: 5028a6a62b799ecd9206b8237be0c6dafbb9d1a4bbbbe0e7c890eac5673ad202
+start_date: '2023-03-01 00:00:00+00:00'
+symbol: BTC/USDT
+timeframe: 1m
+total_return_pct: 22.993830294425322
+updated: '2025-11-09T23:04:28.004183'

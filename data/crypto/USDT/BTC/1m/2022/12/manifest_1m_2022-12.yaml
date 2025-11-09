@@ -1,0 +1,60 @@
+end_date: '2022-12-31 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 18350.49
+    mean: 16950.640740143368
+    median: 16862.655
+    min: 16317.47
+    name: close
+    nulls: 0
+    std: 308.0602591441499
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 18387.95
+    mean: 16954.573665994623
+    median: 16865.97
+    min: 16372.47
+    name: high
+    nulls: 0
+    std: 308.8246273763776
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 18329.98
+    mean: 16946.686667786737
+    median: 16859.295
+    min: 16256.3
+    name: low
+    nulls: 0
+    std: 307.3866780410859
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 18352.03
+    mean: 16950.657896281362
+    median: 16862.7
+    min: 16317.47
+    name: open
+    nulls: 0
+    std: 308.0620800181869
+  volume:
+    description: Traded volume during the interval
+    max: 4195.79965
+    mean: 130.0141998626792
+    median: 95.928165
+    min: 6.04148
+    name: volume
+    nulls: 0
+    std: 143.38685041652266
+insights:
+  avg_volume: 130.0141998626792
+  price_range:
+    max_close: 18350.49
+    min_close: 16317.47
+last_close: 16542.4
+rows: 44640
+sha256: ed3116eb7f6282b3e5bb2d713a4fba95c55f9e70e73a614cf3e8bf8f869ff9c3
+start_date: '2022-12-01 00:00:00+00:00'
+symbol: BTC/USDT
+timeframe: 1m
+total_return_pct: -3.6816902982988897
+updated: '2025-11-09T23:04:25.594301'

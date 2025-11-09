@@ -1,0 +1,60 @@
+end_date: '2025-08-31 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 900.31
+    mean: 825.2923593189964
+    median: 837.52
+    min: 730.05
+    name: close
+    nulls: 0
+    std: 42.012326031333494
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 900.71
+    mean: 825.5905179211469
+    median: 837.9
+    min: 731.66
+    name: high
+    nulls: 0
+    std: 42.02596129554571
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 900.15
+    mean: 824.9917408154122
+    median: 837.145
+    min: 730.01
+    name: low
+    nulls: 0
+    std: 41.99854063688482
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 900.31
+    mean: 825.2911014784945
+    median: 837.52
+    min: 730.06
+    name: open
+    nulls: 0
+    std: 42.012462422131804
+  volume:
+    description: Traded volume during the interval
+    max: 14451.1
+    mean: 166.1779403561828
+    median: 84.097
+    min: 1.403
+    name: volume
+    nulls: 0
+    std: 336.71609121173645
+insights:
+  avg_volume: 166.1779403561828
+  price_range:
+    max_close: 900.31
+    min_close: 730.05
+last_close: 857.65
+rows: 44640
+sha256: 9c9a10911b82947a425481d9d6bcf38b6c48d0553b75c50a178f716d31fa3034
+start_date: '2025-08-01 00:00:00+00:00'
+symbol: BNB/USDT
+timeframe: 1m
+total_return_pct: 9.539440073566974
+updated: '2025-11-09T23:18:38.154752'

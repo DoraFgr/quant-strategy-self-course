@@ -1,0 +1,57 @@
+symbol: ETH/USDT
+timeframe: 1d
+rows: 729
+start_date: '2023-11-12 00:00:00'
+end_date: '2025-11-09 00:00:00'
+total_return_pct: 74.7163370307334
+fields:
+  open:
+    name: open
+    description: 'Open price for the interval'
+    min: 1473.41
+    max: 4832.07
+    mean: 2994.3758573388204
+    median: 2950.99
+    std: 746.5189107626286
+    nulls: 0
+  high:
+    name: high
+    description: 'Highest trade price during the interval'
+    min: 1591.47
+    max: 4956.78
+    mean: 3071.530713305898
+    median: 3018.02
+    std: 763.1532041429961
+    nulls: 0
+  low:
+    name: low
+    description: 'Lowest trade price during the interval'
+    min: 1385.05
+    max: 4711.0
+    mean: 2911.5110836762688
+    median: 2868.0
+    std: 728.3490762571719
+    nulls: 0
+  close:
+    name: close
+    description: 'Close price for the interval'
+    min: 1473.41
+    max: 4832.07
+    mean: 2996.4583401920436
+    median: 2951.29
+    std: 746.0084040756508
+    nulls: 0
+  volume:
+    name: volume
+    description: 'Traded volume during the interval'
+    min: 88329.7651
+    max: 2807979.021
+    mean: 483880.4723855693
+    median: 412306.2237
+    std: 302919.29813591327
+    nulls: 0
+insights:
+  price_range:
+    min_close: 1473.41
+    max_close: 4832.07
+  avg_volume: 483880.4723855693

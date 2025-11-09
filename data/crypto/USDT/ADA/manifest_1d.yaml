@@ -1,0 +1,57 @@
+symbol: ADA/USDT
+timeframe: 1d
+rows: 729
+start_date: '2023-11-12 00:00:00'
+end_date: '2025-11-09 00:00:00'
+total_return_pct: 50.54773082942097
+fields:
+  open:
+    name: open
+    description: 'Open price for the interval'
+    min: 0.3118
+    max: 1.2278
+    mean: 0.6251858710562413
+    median: 0.6169
+    std: 0.2090026432757552
+    nulls: 0
+  high:
+    name: high
+    description: 'Highest trade price during the interval'
+    min: 0.3278
+    max: 1.3264
+    mean: 0.6485669410150892
+    median: 0.6391
+    std: 0.22080942635107859
+    nulls: 0
+  low:
+    name: low
+    description: 'Lowest trade price during the interval'
+    min: 0.2737
+    max: 1.1881
+    mean: 0.6005183813443072
+    median: 0.5903
+    std: 0.19806248678801114
+    nulls: 0
+  close:
+    name: close
+    description: 'Close price for the interval'
+    min: 0.3119
+    max: 1.2278
+    mean: 0.6254437585733882
+    median: 0.6167
+    std: 0.2088155208554657
+    nulls: 0
+  volume:
+    name: volume
+    description: 'Traded volume during the interval'
+    min: 27057484.0
+    max: 1462027409.9
+    mean: 175807795.2174211
+    median: 125624051.5
+    std: 169676913.18133664
+    nulls: 0
+insights:
+  price_range:
+    min_close: 0.3119
+    max_close: 1.2278
+  avg_volume: 175807795.2174211

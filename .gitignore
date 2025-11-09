@@ -44,7 +44,18 @@ ipython_config.py
 *.code-workspace
 
 # Data files (uncomment if deciding not to commit data)
-# data/*.csv
+# Data files: ignore CSVs inside data/ (we keep only manifest files)
+# Ignore all CSV files under the data/ folder (recursive)
+/data/**/*.csv
+/data/*.csv
+# If you later want to keep combined CSVs or specific files, add negations below
+# Keep manifest files (per-symbol YAML manifests and global JSON manifests)
+!/data/**/manifest_*.yaml
+!/data/**/manifest_*.yml
+!/data/**/crypto_manifest_*.json
+!/data/**/manifest_*.json
+
+# Other data formats (left commented — enable if you also want to ignore them)
 # data/*.parquet
 # data/*.h5
 # data/*.hdf5
@@ -95,3 +106,6 @@ QuantLib-*/
 # Backup files
 *.bak
 *.backup
+
+# Data bundles downloaded from Binance
+/bundles/*

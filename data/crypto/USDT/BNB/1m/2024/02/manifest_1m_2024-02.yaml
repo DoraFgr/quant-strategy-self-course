@@ -1,0 +1,60 @@
+end_date: '2024-02-29 23:59:00+00:00'
+fields:
+  close:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 427.0
+    mean: 344.3559099616858
+    median: 346.9
+    min: 296.6
+    name: close
+    nulls: 0
+    std: 34.98505678387514
+  high:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 427.3
+    mean: 344.5060488505747
+    median: 347.1
+    min: 296.7
+    name: high
+    nulls: 0
+    std: 35.03886988253455
+  low:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 425.8
+    mean: 344.19196599616856
+    median: 346.8
+    min: 296.4
+    name: low
+    nulls: 0
+    std: 34.924433246809535
+  open:
+    description: Open/High/Low/Close/Volume for the interval
+    max: 427.0
+    mean: 344.36485392720306
+    median: 346.9
+    min: 296.6
+    name: open
+    nulls: 0
+    std: 34.97960598327003
+  volume:
+    description: Traded volume during the interval
+    max: 32408.222
+    mean: 512.5869812739462
+    median: 268.697
+    min: 1.68
+    name: volume
+    nulls: 0
+    std: 827.3912056055146
+insights:
+  avg_volume: 512.5869812739462
+  price_range:
+    max_close: 427.0
+    min_close: 296.6
+last_close: 399.4
+rows: 41760
+sha256: 65eab13255cef267f369601fc36982e67bfa49c9986dd4dd163331beb3ddff7a
+start_date: '2024-02-01 00:00:00+00:00'
+symbol: BNB/USDT
+timeframe: 1m
+total_return_pct: 32.779255319148916
+updated: '2025-11-09T23:18:26.802055'
